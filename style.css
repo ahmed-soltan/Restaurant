@@ -282,7 +282,6 @@ section{
     flex-wrap: wrap;
 }
 section.services div{
-    max-width: 300px;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
