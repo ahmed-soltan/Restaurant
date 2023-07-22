@@ -276,10 +276,9 @@ section{
 }
 .services{
     padding: 130px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
 }
 section.services div{
     border-radius: 5px;
@@ -318,7 +317,12 @@ section.services div p{
     .services div p{
         font-size: 22px !important;
     }
-
+/* .services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
 }
 .about{
     display: flex;
